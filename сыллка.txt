@@ -1,0 +1,10 @@
+  var p = document.body.children[0];
+  var p5 = p.children[2];
+
+  p5.insertAdjacentHTML("beforeBegin", "<p>3sffsfsfs</p><p>fsfssfs</p>");
+
+  
+  var ul = document.body.children[0];
+  var li5 = ul.children[2];
+
+  li5.insertAdjacentHTML("beforeBegin", "<li>3</li><li>4</li>");
